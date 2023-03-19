@@ -2,6 +2,7 @@ import sys
 import time
 import psutil
 process = psutil.Process()
+print("Выполнил Шморгилов Евгений Сергеевич 020303-АИСа-о22")
 while True:
     a, b = map(int, input().split())
     if a < 2 or b > 2 * 10 ** 9:
