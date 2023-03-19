@@ -20,7 +20,6 @@ while(pow(b, k) <= sys.maxsize):
         break
     else:
         k+=1
-3
 if(pow(b, k) > sys.maxsize):
    print("-1")
 memory = process.memory_info().rss
